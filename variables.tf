@@ -1,5 +1,5 @@
-variable "zone_id" {
-  description = "Route53 hosted zone id"
+variable "route53_record_name" {
+  description = "DNS endpoint to which the certificate is being requested"
 }
 
 variable "validation_method" {

@@ -1,5 +1,5 @@
 resource "aws_acm_certificate" "cert" {
-  domain_name       = var.zone_id
+  domain_name       = var.route53_record_name
   validation_method = var.validation_method
   lifecycle {
     create_before_destroy = true
