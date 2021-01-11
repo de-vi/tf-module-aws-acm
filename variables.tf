@@ -7,6 +7,6 @@ variable "validation_method" {
   default     = "DNS"
 }
 
-variable "validation_record" {
-  description = "List of FQDNs that implement the validation"
+variable "zone_id" {
+  description = "ZONE ID to create route53 record to do cert validation"
 }
